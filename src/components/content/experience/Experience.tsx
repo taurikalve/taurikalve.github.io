@@ -1,5 +1,4 @@
 import React from 'react';
-import Block from '@/components/block/Block';
 import ListBlock from '@/components/listBlock/ListBlock';
 import style from './Experience.module.scss';
 

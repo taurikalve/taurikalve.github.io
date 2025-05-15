@@ -1,6 +1,5 @@
 import React from 'react';
 import style from './KeyProjects.module.scss';
-import Block from '@/components/block/Block';
 import ListBlock from '@/components/listBlock/ListBlock';
 
 const projects: { name: string; url: string; points: string[] }[] = [
