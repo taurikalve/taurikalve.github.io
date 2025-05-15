@@ -28,10 +28,11 @@ export default function Info({
             target='_blank'
             rel='noopener noreferrer'
           >
-            GitHub
+            <span className='noprint'>GitHub</span>
+            <span className='onlyprint'>github.com/taurikalve</span>
           </a>
         </div>
-        <div>
+        <div className='noprint'>
           <LinkedinIcon className={buildClasses(style.icon, style.fill)} />
           <a
             href='https://www.linkedin.com/in/tauri-kalve-875a61a5'

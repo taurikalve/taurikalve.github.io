@@ -66,8 +66,19 @@ ul {
   list-style-type: none;
 }
 
+.onlyprint {
+  display: none;
+}
 @media print {
   .noprint {
-    display: none;
+    display: none !important;
+  }
+  .onlyprint {
+    display: initial;
+  }
+}
+* {
+  @media print {
+    print-color-adjust: exact;
   }
 }

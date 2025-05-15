@@ -23,9 +23,6 @@
         padding: 0.175rem 0.25rem;
         background: linear-gradient(to right, #a31918, #f23837);
         border: 1.5px solid #ab5656;
-        @media print {
-          print-color-adjust: exact;
-        }
       }
     }
     &.additional {
