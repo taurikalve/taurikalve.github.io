@@ -32,14 +32,15 @@ export default function Info({
             <span className='onlyprint'>github.com/taurikalve</span>
           </a>
         </div>
-        <div className='noprint'>
+        <div>
           <LinkedinIcon className={buildClasses(style.icon, style.fill)} />
           <a
             href='https://www.linkedin.com/in/tauri-kalve-875a61a5'
             target='_blank'
             rel='noopener noreferrer'
           >
-            LinkedIn
+            <span className='noprint'>LinkedIn</span>
+            <span className='onlyprint'>Tauri Kalve</span>
           </a>
         </div>
         <div>
