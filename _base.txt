@@ -1,0 +1,13 @@
+Olen full-stack veebiarendaja.
+Põhilised tööriistad on Node.js, React/Next.js, MongoDB, Docker. Isiklikult eelistan Linux VPS-e hostimiseks, aga ei pelga serverless lahendusi nagu AWS, Vercel jne.
+Saan hakkama kogu arendusprotsessiga alates süsteemi planeerimisest kuni front end-ini. Oskan kavandada ja luua microservices arhitektuuril põhinevaid süsteeme ning seadistada nende CI/CD pipeline-e.
+Olen loonud oma sisuhaldussüsteemi ja oman ulatuslikku kogemust automatiseeritult veebist andmete kogumisega. Olen ka palju töötanud WordPress platvormiga.
+Põhilised keeled on JavaScript/TypeScript, saan hakkama ka PHP, Java ning suudan töötada kõigi C-laadsete keeltega. Oman ka arvestatavat scriptimise kogemust Shell/Bash-iga.
+Front end raamistikest oman kõige enam kogemust React-iga, aga saan hakkama ka teistega nagu Svelte, Angular, Vue jne
+Oman kogemust nii SQL kui NoSQL andmebaasidega, nii ORM-id kui "puhas keel".
+Olen põhiliselt tegelenud REST arhitektuuriga, kuid oman kogemusi ka GraphQL-iga.
+Oskan teha UI/UX disaini ja mingil määral ka (veebi)disaini.
+Oman kogemust Google Analytics-i ja Google Ads-iga.
+Olen agiilse arenduse fänn.
+Usun, et suudan igale probleemile leida parima lahenduse.
+Otsin uusi väljakutseid ja eneseteostusvõimalusi.

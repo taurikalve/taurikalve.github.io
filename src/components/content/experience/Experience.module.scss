@@ -1,0 +1,8 @@
+@use 'colors';
+
+.date {
+  span {
+    font-weight: 500;
+    color: colors.$primary-2;
+  }
+}

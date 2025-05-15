@@ -1,0 +1,10 @@
+@use 'colors';
+
+a.site {
+  // font-style: italic;
+  font-weight: 500;
+  color: colors.$primary-2;
+  &:hover {
+    text-decoration: underline;
+  }
+}

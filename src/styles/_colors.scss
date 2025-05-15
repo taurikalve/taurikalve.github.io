@@ -1,0 +1,11 @@
+@use 'sass:color';
+
+// $primary: #66fcf1;
+$primary: #354054;
+$primary-1: #4a5b7b;
+$primary-2: #586a8e;
+$primary-3: #657c9e;
+$primary-4: #748fb2;
+$primary-5: color.adjust($primary-4, $lightness: 25%);
+$highlight: #e24345;
+$highlight-dark: #cc3433;

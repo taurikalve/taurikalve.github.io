@@ -1,3 +1,7 @@
+# CV - Tauri Kalve
+
+This is my CV, made with Create React App.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,65 @@
+@use 'colors';
+
+.container {
+  display: flex;
+  gap: 1.5rem;
+  a {
+    color: colors.$highlight-dark;
+    &:hover {
+      text-decoration: underline;
+    }
+    @media print {
+      color: colors.$primary;
+    }
+  }
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  font-weight: 500;
+  > div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  h1 {
+    font-size: 1.75rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  .icon {
+    $iconSize: 20px;
+    $color: colors.$primary-1;
+    width: $iconSize;
+    height: $iconSize;
+    &.fill {
+      path {
+        fill: $color;
+      }
+    }
+    &.stroke {
+      path {
+        stroke: $color;
+      }
+    }
+  }
+}
+.img {
+  $size: 200px;
+  width: $size;
+  height: $size;
+  overflow: hidden;
+  background: #eaeaea;
+  border-radius: 100%;
+  img {
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem 0.5rem 0;
+  }
+  //
+}

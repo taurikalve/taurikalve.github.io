@@ -1,0 +1,33 @@
+@use 'colors';
+@use 'mixins';
+
+.container {
+  // display: flex;
+  // flex-direction: column;
+  // gap: 0.25rem;
+  // li {
+  //   display: flex;
+  //   flex-direction: column;
+  //   gap: 0.25rem;
+  @include mixins.general-list($list-decorator-color: colors.$primary-4);
+  li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .school {
+    font-weight: 500;
+    color: colors.$primary-1;
+  }
+  .time {
+    color: colors.$primary-4;
+    span {
+      font-style: italic;
+    }
+  }
+  // .details {
+  //   display: flex;
+  //   gap: 0.5rem;
+  // }
+  // }
+}

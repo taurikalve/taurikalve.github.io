@@ -1,0 +1,23 @@
+@use 'colors';
+
+@mixin general-list($list-decorator-color: colors.$highlight-dark) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding: 0 0.2rem;
+  }
+  li {
+    position: relative;
+    padding-left: 0.5rem;
+    &::before {
+      position: absolute;
+      left: -0.275rem;
+      content: '-';
+      color: $list-decorator-color;
+      margin-right: 0.25rem;
+      margin-left: 0.1rem;
+      font-weight: 700;
+    }
+  }
+}
