@@ -9,7 +9,7 @@ const education: {
   endDate: string;
 }[] = [
   {
-    school: 'Keila Algkool',
+    school: 'Keila Kool',
     level: 'Basic education',
     startDate: '2000',
     endDate: '2005',
@@ -22,7 +22,7 @@ const education: {
   },
   {
     school: 'Tallinn University of Technology',
-    level: 'IT - telecommunication, Bachelors',
+    level: 'IT - telecom, Bachelors',
     startDate: '2012',
     endDate: '...',
   },
