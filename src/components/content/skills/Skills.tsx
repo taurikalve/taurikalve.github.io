@@ -24,6 +24,7 @@ const additionalSkills: string[] = [
   'PHP',
   'Java',
   'Python',
+  'Go',
   'Shell / Bash',
   'HTML5 / CSS',
   'Web scraping',
