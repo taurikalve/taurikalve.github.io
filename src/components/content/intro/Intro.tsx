@@ -14,7 +14,10 @@ export default function Intro({
         extensive experience creating microservices architecture apps and can
         handle everything from planning the project to writing front-end.
       </p>
-      <p>I like using LLMs extensively to supercharge my productivity.</p>
+      <p>
+        I like to drive for excellence and I'm constantly looking for new ways
+        to improve both my productivity and the quality of my output.
+      </p>
       <p>
         I'm looking for a job, where I can focus on what I love doing most -
         delivering products that exceed expectations.
