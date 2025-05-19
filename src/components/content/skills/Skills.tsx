@@ -56,7 +56,9 @@ export default function Skills(props: React.HTMLAttributes<HTMLDivElement>) {
           <h3>Primary</h3>
           <ul>
             {primarySkills.map(({ label, level }) => (
-              <li style={{ width: `${level}%` }}>{label}</li>
+              <li key={label} style={{ width: `${level}%` }}>
+                {label}
+              </li>
             ))}
           </ul>
         </div>
@@ -64,7 +66,7 @@ export default function Skills(props: React.HTMLAttributes<HTMLDivElement>) {
           <h3>Additional</h3>
           <ul>
             {additionalSkills.map((skill) => (
-              <li>{skill}</li>
+              <li key={skill}>{skill}</li>
             ))}
           </ul>
         </div>

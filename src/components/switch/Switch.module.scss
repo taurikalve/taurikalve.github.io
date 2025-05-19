@@ -1,0 +1,19 @@
+@use 'colors';
+
+.container {
+  position: fixed;
+  right: 0.35rem;
+  bottom: 0.35rem;
+  button {
+    background: colors.$primary-5;
+    color: #fff;
+    border-radius: 0.175rem;
+    width: 80px;
+    border: 0;
+    font-size: 0.9rem;
+    padding: 0.1rem 0;
+    &:hover {
+      background: colors.$primary-4;
+    }
+  }
+}

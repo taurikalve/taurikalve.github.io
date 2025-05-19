@@ -1,0 +1,1 @@
+type Mode = 'full' | 'front';

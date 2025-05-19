@@ -19,7 +19,7 @@ const experiences: {
       'Creation and management of dozens of WordPress sites',
       'Web design',
       'DevOps',
-      'Digital marketing',
+      'Search engine optimization',
       'IT consultancy',
     ],
   },

@@ -1,5 +1,6 @@
 import React from 'react';
 import { buildClasses } from '@/lib/utils';
+import { modeLabels } from '@/lib/consts';
 import style from './Info.module.scss';
 
 import myPic from './assets/myPic.png';
@@ -9,10 +10,11 @@ import { ReactComponent as EmailIcon } from './assets/email.svg';
 import { ReactComponent as PhoneIcon } from './assets/phone.svg';
 import { ReactComponent as AddressIcon } from './assets/address.svg';
 
-export default function Info({
-  className,
-  ...rest
-}: React.HTMLAttributes<HTMLDivElement>) {
+interface Props extends React.HTMLAttributes<HTMLDivElement> {
+  mode: Mode;
+}
+
+export default function Info({ mode, className, ...rest }: Props) {
   return (
     <div className={buildClasses(style.container, className)} {...rest}>
       <div className={style.img}>
@@ -20,7 +22,7 @@ export default function Info({
       </div>
       <div className={style.info}>
         <h1>Tauri Kalve</h1>
-        <h2>Senior Web Developer</h2>
+        <h2>{modeLabels[mode]} Web Developer</h2>
         <div>
           <GithubIcon className={buildClasses(style.icon, style.fill)} />
           <a
