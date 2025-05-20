@@ -13,22 +13,23 @@ export default function Intro({ className, mode, ...rest }: Props) {
       {mode === 'full' ? (
         <p>
           I'm a Full-Stack Developer with 12 years of experience building
-          dynamic, user-focused web applications. I specialize in crafting
-          responsive front-end interfaces with TypeScript and React, while also
-          designing scalable back-end systems using Node.js, REST/GraphQL and
-          MongoDB/SQL. My expertise includes developing microservices
-          architectures and optimizing end-to-end workflows, from pixel-perfect
-          UIs to robust APIs and CI/CD pipelines.
+          dynamic, user-focused web applications. I specialize in developing
+          responsive front-end interfaces with TypeScript and React, and
+          architecting scalable back-end systems using Node.js, REST/GraphQL
+          APIs, and MongoDB/SQL. My expertise includes designing microservices
+          architectures, building robust APIs, and implementing CI/CD pipelines
+          to support fast, reliable deployments.
         </p>
       ) : (
         <p>
-          I'm a Front-End Developer with 12 years of experience building
-          dynamic, user-focused web applications, complemented by extensive
-          full-stack expertise. I specialize in crafting responsive, accessible
-          front-end interfaces using TypeScript and React, paired with scalable
-          back-end systems built on Node.js, REST/GraphQL APIs and MongoDB/SQL.
-          My skills span microservices architectures, API optimization, and
-          CI/CD pipelines, ensuring seamless end-to-end development.
+          I'm a Front-End Developer with 12 years of experience creating
+          engaging, user-centric web interfaces - supported by a strong
+          foundation in full-stack development. I specialize in building
+          responsive, accessible front ends with TypeScript and React, and
+          collaborate effectively on back-end systems using Node.js,
+          REST/GraphQL APIs, and MongoDB/SQL. My background includes performance
+          optimization, design system implementation, and seamless integration
+          across modern CI/CD pipelines.
         </p>
       )}
 

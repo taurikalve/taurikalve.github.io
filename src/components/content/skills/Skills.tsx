@@ -37,6 +37,7 @@ const additionalSkills: string[] = [
   'Angular',
   'Vue.js',
   'WebSockets',
+  'Puppeteer / Playwright',
   'DevOps',
   // 'MariaDB / MySQL',
   // 'Windows',
