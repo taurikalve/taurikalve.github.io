@@ -2,7 +2,7 @@ import React from 'react';
 
 import style from './Switch.module.scss';
 import { buildClasses } from '@/lib/utils';
-import { modeLabels as labels } from '@/lib/consts';
+import { modeLabels } from '@/lib/consts';
 
 interface Props {
   mode: Mode;
@@ -12,7 +12,7 @@ export default function Switch({ mode, switchMode }: Props) {
   return (
     <div className={buildClasses(style.container, 'noprint')}>
       <button aria-label='Mode switch' onClick={switchMode}>
-        {labels[mode]}
+        {Object.entries(modeLabels).find(([m]) => m !== mode)![1]}
       </button>
     </div>
   );
