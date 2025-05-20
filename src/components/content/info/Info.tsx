@@ -37,7 +37,7 @@ export default function Info({ mode, className, ...rest }: Props) {
         <div>
           <LinkedinIcon className={buildClasses(style.icon, style.fill)} />
           <a
-            href='https://www.linkedin.com/in/tauri-kalve-875a61a5'
+            href='https://www.linkedin.com/in/taurikalve'
             target='_blank'
             rel='noopener noreferrer'
           >
