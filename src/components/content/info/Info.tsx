@@ -42,7 +42,7 @@ export default function Info({ mode, className, ...rest }: Props) {
             rel='noopener noreferrer'
           >
             <span className='noprint'>LinkedIn</span>
-            <span className='onlyprint'>Tauri Kalve</span>
+            <span className='onlyprint'>linkedin.com/in/taurikalve</span>
           </a>
         </div>
         <div>
