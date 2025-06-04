@@ -4,15 +4,6 @@ import ListBlock from '@/components/listBlock/ListBlock';
 
 const projects: { name: string; url: string; points: string[] }[] = [
   {
-    name: 'Naissaar',
-    url: 'naissaar.ee',
-    points: [
-      'Project goal was to provide an introductory outlet for tourists and a community portal for the people of the island.',
-      'Built on MERN stack. Public front-end uses Next.js, private front-end is a React SPA.',
-      'Includes a fully featured purpose-built CMS with a forum.',
-    ],
-  },
-  {
     name: 'KVotsing',
     url: 'kvotsing.ee',
     points: [
@@ -21,6 +12,15 @@ const projects: { name: string; url: string; points: string[] }[] = [
       'Features a crawler app controlled docker browser swarm.',
       'Crawling and web apps are designed to run on separate hosts.',
       'Monorepo that utilizes npm workspaces to minimize code duplication.',
+    ],
+  },
+  {
+    name: 'Naissaar',
+    url: 'naissaar.ee',
+    points: [
+      'Project goal was to provide an introductory outlet for tourists and a community portal for the people of the island.',
+      'Built on MERN stack. Public front-end uses Next.js, private front-end is a React SPA.',
+      'Includes a fully featured purpose-built CMS with a forum.',
     ],
   },
 ];
