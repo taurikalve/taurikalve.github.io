@@ -8,18 +8,18 @@ const education: {
   startDate: string;
   endDate: string;
 }[] = [
-  {
-    school: 'Keila Kool',
-    level: 'Basic education',
-    startDate: '2000',
-    endDate: '2005',
-  },
-  {
-    school: 'Saue Kool',
-    level: 'Basic education / Secondary education',
-    startDate: '2005',
-    endDate: '2012',
-  },
+  // {
+  //   school: 'Keila Kool',
+  //   level: 'Basic education',
+  //   startDate: '2000',
+  //   endDate: '2005',
+  // },
+  // {
+  //   school: 'Saue Kool',
+  //   level: 'Basic education / Secondary education',
+  //   startDate: '2005',
+  //   endDate: '2012',
+  // },
   {
     school: 'Tallinn University of Technology',
     level: 'IT - telecom, Bachelors',

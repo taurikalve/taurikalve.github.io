@@ -38,8 +38,9 @@ export default function Intro({ className, mode, ...rest }: Props) {
         high-quality solutions that delight users and scale seamlessly. Whether
         it's enhancing front-end performance or architecting full-stack systems,
         I thrive on solving complex challenges and continuously refining my
-        skills. I'm seeking Front-End or Full-Stack Developer roles where I can
-        leverage my expertise to build innovative and impactful web experiences.
+        skills.{' '}
+        {/*I'm seeking Front-End or Full-Stack Developer roles where I can
+        leverage my expertise to build innovative and impactful web experiences. */}
       </p>
     </div>
   );

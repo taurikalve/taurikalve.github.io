@@ -36,6 +36,7 @@ const additionalSkills: string[] = [
   'Svelte',
   'Angular',
   'Vue.js',
+  'React Native',
   'WebSockets',
   'Puppeteer / Playwright',
   'DevOps',
