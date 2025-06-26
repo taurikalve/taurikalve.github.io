@@ -10,7 +10,7 @@ const experiences: {
   tasks: string[];
 }[] = [
   {
-    role: 'Full-Stack Web Developer / CTO',
+    role: 'Full-Stack Engineer / CTO',
     company: 'Digiway',
     startDate: 'October 2013',
     endDate: 'April 2025',
