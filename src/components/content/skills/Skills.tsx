@@ -38,8 +38,11 @@ const additionalSkills: string[] = [
   'Vue.js',
   'React Native',
   'WebSockets',
-  'Puppeteer / Playwright',
+  'Puppeteer',
+  'Playwright',
   'DevOps',
+  'Testing',
+  'Jest',
   // 'MariaDB / MySQL',
   // 'Windows',
   // 'jQuery',
@@ -48,6 +51,7 @@ const additionalSkills: string[] = [
   'Nginx',
   'Traefik',
   'Webpack',
+  'Git',
 ];
 
 export default function Skills(props: React.HTMLAttributes<HTMLDivElement>) {
