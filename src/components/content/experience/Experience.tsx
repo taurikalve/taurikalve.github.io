@@ -20,8 +20,8 @@ const experiences: {
       'Web design',
       'DevOps',
       'Search engine optimization',
-      'IT consultancy',
       'Product ownership',
+      'IT consultancy',
     ],
   },
 ];
