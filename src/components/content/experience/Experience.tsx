@@ -22,6 +22,7 @@ const experiences: {
       'Search engine optimization',
       'Product ownership',
       'IT consultancy',
+      'FinOps',
     ],
   },
 ];
