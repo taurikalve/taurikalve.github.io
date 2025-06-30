@@ -12,7 +12,7 @@ export default function Intro({ className, mode, ...rest }: Props) {
     <div className={buildClasses(style.container, className)} {...rest}>
       {mode === 'full' ? (
         <p>
-          I'm a Full-Stack Developer with 12 years of experience building
+          I'm a Full-Stack Engineer with 12 years of experience building
           dynamic, user-focused web applications. I specialize in developing
           responsive front-end interfaces with TypeScript and React, and
           architecting scalable back-end systems using Node.js, REST/GraphQL

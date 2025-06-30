@@ -14,6 +14,11 @@ interface Props extends React.HTMLAttributes<HTMLDivElement> {
   mode: Mode;
 }
 
+const title: { [M in Mode]: string } = {
+  front: 'Front-end Developer',
+  full: 'Full-stack Engineer',
+};
+
 export default function Info({ mode, className, ...rest }: Props) {
   return (
     <div className={buildClasses(style.container, className)} {...rest}>
@@ -22,7 +27,7 @@ export default function Info({ mode, className, ...rest }: Props) {
       </div>
       <div className={style.info}>
         <h1>Tauri Kalve</h1>
-        <h2>{modeLabels[mode]} Web Developer</h2>
+        <h2>{title[mode]}</h2>
         <div>
           <GithubIcon className={buildClasses(style.icon, style.fill)} />
           <a
