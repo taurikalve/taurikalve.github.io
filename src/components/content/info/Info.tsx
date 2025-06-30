@@ -15,8 +15,8 @@ interface Props extends React.HTMLAttributes<HTMLDivElement> {
 }
 
 const title: { [M in Mode]: string } = {
-  front: 'Front-end Developer',
-  full: 'Full-stack Engineer',
+  front: 'Front-end Web Developer',
+  full: 'Full-stack Software Engineer',
 };
 
 export default function Info({ mode, className, ...rest }: Props) {
