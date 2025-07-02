@@ -52,6 +52,7 @@ const additionalSkills: string[] = [
   'Traefik',
   'Webpack',
   'Git',
+  'GitHub Actions',
 ];
 
 export default function Skills(props: React.HTMLAttributes<HTMLDivElement>) {
