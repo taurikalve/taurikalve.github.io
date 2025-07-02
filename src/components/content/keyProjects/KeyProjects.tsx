@@ -31,12 +31,12 @@ const projects: {
 ];
 
 export default function KeyProjects(
-  props: React.HTMLAttributes<HTMLDivElement>,
+  props: Exclude<React.HTMLAttributes<HTMLDivElement>, 'className'>,
 ) {
   return (
     <ListBlock
+      {...props}
       className={style.container}
-      containerClass={style.container}
       label='Key Projects'
       list={projects.map(({ name, url, goal, points }) => ({
         name,
@@ -55,7 +55,6 @@ export default function KeyProjects(
         },
         list: points,
       }))}
-      {...props}
     />
   );
 }
