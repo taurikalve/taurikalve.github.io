@@ -13,6 +13,7 @@ interface Props extends React.HTMLAttributes<HTMLDivElement> {
     };
     list: string[];
   }[];
+  containerClass?: string;
 }
 
 export default function ListBlock({ list, ...rest }: Props) {

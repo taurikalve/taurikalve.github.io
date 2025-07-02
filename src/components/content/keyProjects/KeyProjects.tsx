@@ -35,6 +35,8 @@ export default function KeyProjects(
 ) {
   return (
     <ListBlock
+      className={style.container}
+      containerClass={style.container}
       label='Key Projects'
       list={projects.map(({ name, url, goal, points }) => ({
         name,

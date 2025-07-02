@@ -1,17 +1,18 @@
 @use 'colors';
 
-a.site {
-  // font-style: italic;
-  font-weight: 500;
-  // color: colors.$primary-2;
-  font-style: italic;
-  font-size: 95%;
-  &:hover {
-    text-decoration: underline;
+.container {
+  a.site {
+    // font-style: italic;
+    font-weight: 500;
+    // color: colors.$primary-2;
+    font-style: italic;
+    font-size: 95%;
+    &:hover {
+      text-decoration: underline;
+    }
   }
-}
-
-p {
-  font-weight: 500;
-  color: colors.$primary-2;
+  p {
+    font-weight: 500;
+    color: colors.$primary-2;
+  }
 }

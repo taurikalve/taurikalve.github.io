@@ -35,14 +35,16 @@ export default function Experience(
       label='Experience'
       list={experiences.map(({ role, company, startDate, endDate, tasks }) => ({
         name: company,
-        pre: (
-          <>
-            <h4>{role}</h4>
-            <div className={style.date}>
-              <span>{startDate}</span> - <span>{endDate || ''}</span>
-            </div>
-          </>
-        ),
+        hooks: {
+          preList: (
+            <>
+              <h4>{role}</h4>
+              <div className={style.date}>
+                <span>{startDate}</span> - <span>{endDate || ''}</span>
+              </div>
+            </>
+          ),
+        },
         list: tasks,
       }))}
       {...props}
