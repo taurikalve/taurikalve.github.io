@@ -1,6 +1,6 @@
 import React from 'react';
 import { buildClasses } from '@/lib/utils';
-import { modeLabels } from '@/lib/consts';
+// import { modeLabels } from '@/lib/consts';
 import style from './Info.module.scss';
 
 import myPic from './assets/myPic.png';
@@ -16,7 +16,7 @@ interface Props extends React.HTMLAttributes<HTMLDivElement> {
 
 const title: { [M in Mode]: string } = {
   front: 'Front-end Web Developer',
-  full: 'Full-stack Software Engineer',
+  full: 'Full-stack Engineer',
 };
 
 export default function Info({ mode, className, ...rest }: Props) {
