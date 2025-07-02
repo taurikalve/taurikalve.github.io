@@ -6,17 +6,20 @@ ul.container {
   flex-direction: column;
   gap: 0.75rem;
   > li {
-    h3 {
-      border-bottom: 2px solid colors.$primary-5;
-      padding-bottom: 0.2rem;
-      margin-bottom: 0.3rem;
-    }
     .inner {
       padding: 0 0.35rem;
       display: flex;
       flex-direction: column;
       gap: 0.25rem;
       @include mixins.general-list;
+    }
+    .head {
+      border-bottom: 2px solid colors.$primary-5;
+      padding-bottom: 0.2rem;
+      margin-bottom: 0.3rem;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
     }
   }
 }

@@ -2,12 +2,17 @@ import React from 'react';
 import style from './KeyProjects.module.scss';
 import ListBlock from '@/components/listBlock/ListBlock';
 
-const projects: { name: string; url: string; points: string[] }[] = [
+const projects: {
+  name: string;
+  url: string;
+  goal: string;
+  points: string[];
+}[] = [
   {
     name: 'KVotsing',
     url: 'kvotsing.ee',
+    goal: "Project's goal was to aggregate Estonian property listings into a single place.",
     points: [
-      'Project goal was to aggregate Estonian property listings into a single place.',
       'Used technologies: React (Next.js), Node.js (Fastify), MongoDB, Docker, Traefik.',
       'Features a crawler app controlled docker browser swarm.',
       'Crawling and web apps are designed to run on separate hosts.',
@@ -17,10 +22,10 @@ const projects: { name: string; url: string; points: string[] }[] = [
   {
     name: 'Naissaar',
     url: 'naissaar.ee',
+    goal: "Project goal's was to provide an introductory outlet for tourists and a community portal for the people of the island.",
     points: [
-      'Project goal was to provide an introductory outlet for tourists and a community portal for the people of the island.',
       'Built on MERN stack. Public front-end uses Next.js, private front-end is a React SPA.',
-      'Includes a fully featured purpose-built CMS with a forum.',
+      'A fully-featured purpose-built CMS with a forum.',
     ],
   },
 ];
@@ -31,18 +36,21 @@ export default function KeyProjects(
   return (
     <ListBlock
       label='Key Projects'
-      list={projects.map(({ name, url, points }) => ({
+      list={projects.map(({ name, url, goal, points }) => ({
         name,
-        pre: (
-          <a
-            className={style.site}
-            href={`https://${url}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            {url}
-          </a>
-        ),
+        hooks: {
+          headPostName: (
+            <a
+              className={style.site}
+              href={`https://${url}`}
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              {url}
+            </a>
+          ),
+          preList: <p>{goal}</p>,
+        },
         list: points,
       }))}
       {...props}
