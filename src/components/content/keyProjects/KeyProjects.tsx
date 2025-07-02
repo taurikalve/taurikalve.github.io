@@ -22,7 +22,7 @@ const projects: {
   {
     name: 'Naissaar',
     url: 'naissaar.ee',
-    goal: "Project goal's was to provide an introductory outlet for tourists and a community portal for the people of the island.",
+    goal: "Project's goal was to provide an introductory outlet for tourists and a community portal for the people of the island.",
     points: [
       'Built on MERN stack. Public front-end uses Next.js, private front-end is a React SPA.',
       'A fully-featured purpose-built CMS with a forum.',
