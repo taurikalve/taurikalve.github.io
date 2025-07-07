@@ -25,7 +25,6 @@ const additionalSkills: string[] = [
   'PHP',
   'Java',
   'Python',
-  'Go',
   'Shell / Bash',
   'HTML5 / CSS',
   'Web scraping',
@@ -54,6 +53,7 @@ const additionalSkills: string[] = [
   'Webpack',
   'Git',
   'GitHub Actions',
+  'Amazon Web Services',
 ];
 
 export default function Skills(props: React.HTMLAttributes<HTMLDivElement>) {
