@@ -13,7 +13,7 @@ const experiences: {
     role: 'Full-Stack Engineer / CTO',
     company: 'Digiway',
     startDate: 'October 2013',
-    endDate: 'April 2025',
+    endDate: 'June 2025',
     tasks: [
       'Creation and management of JS/TS-based microservices architecture applications',
       'Creation and management of dozens of WordPress sites',
