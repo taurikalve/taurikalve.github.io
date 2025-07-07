@@ -33,6 +33,7 @@ const additionalSkills: string[] = [
   'Next.js',
   'Fastify',
   'Express',
+  'NestJS',
   'Svelte',
   'Angular',
   'Vue.js',
