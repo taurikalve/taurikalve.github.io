@@ -23,7 +23,7 @@ const primarySkills: {
 ].sort((a, b) => b.level - a.level);
 const additionalSkills: string[] = [
   'PHP',
-  'Java',
+  'Go',
   'Python',
   'Shell / Bash',
   'HTML5 / CSS',
