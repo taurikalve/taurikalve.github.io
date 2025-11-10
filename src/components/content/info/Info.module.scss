@@ -3,13 +3,17 @@
 .container {
   display: flex;
   gap: 1.5rem;
+  span {
+    color: colors.$highlight-dark;
+  }
   a {
     color: colors.$highlight-dark;
     &:hover {
       text-decoration: underline;
     }
     @media print {
-      color: colors.$primary;
+      // color: colors.$primary;
+      // color: colors.$highlight;
     }
   }
 }
