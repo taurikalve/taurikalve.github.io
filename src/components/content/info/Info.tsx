@@ -27,7 +27,7 @@ export default function Info({ mode, className, ...rest }: Props) {
       </div>
       <div className={style.info}>
         <h1>Tauri Kalve</h1>
-        <h2>{title[mode]}</h2>
+        <h2>Full-Stack & Front-End Engineer{/*title[mode]*/}</h2>
         <div>
           <GithubIcon className={buildClasses(style.icon, style.fill)} />
           <a

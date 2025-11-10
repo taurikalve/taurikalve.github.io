@@ -10,19 +10,26 @@ const experiences: {
   tasks: string[];
 }[] = [
   {
+    role: 'Software Engineer',
+    company: 'Jutt.ai',
+    startDate: 'September 2025',
+    endDate: 'now',
+    tasks: ['UI/UX development', 'Full-stack engineering', 'LLM management'],
+  },
+  {
     role: 'Full-Stack Engineer / CTO',
     company: 'Digiway',
     startDate: 'October 2013',
-    endDate: 'June 2025',
+    endDate: 'September 2025',
     tasks: [
       'Creation and management of JS/TS-based microservices architecture applications',
-      'Creation and management of dozens of WordPress sites',
+      // 'Creation and management of dozens of WordPress sites',
       'Web design',
       'DevOps',
       'Search engine optimization',
-      'Product ownership',
-      'IT consultancy',
-      'FinOps',
+      // 'Product ownership',
+      // 'IT consultancy',
+      // 'FinOps',
     ],
   },
 ];
