@@ -27,7 +27,7 @@ const additionalSkills: string[] = [
   'Python',
   'Shell / Bash',
   'Web scraping',
-  'UX design',
+  'UI/UX design',
   'Next.js',
   'Fastify',
   'Express',
