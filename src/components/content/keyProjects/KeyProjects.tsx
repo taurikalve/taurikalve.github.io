@@ -14,7 +14,7 @@ const projects: {
     goal: "Project's goal was to aggregate Estonian property listings into a single place.",
     points: [
       'Used technologies: Node.js, React, Next.js, Fastify, MongoDB, Docker, Traefik.',
-      'Utilizes a crawler app orchestrated docker browser swarm.',
+      'Utilizes a crawler app orchestrated Docker browser swarm.',
       'Crawling and web apps are designed to run on separate hosts.',
       // 'Monorepo that utilizes npm workspaces to minimize code duplication.',
       'Utilizes LLM APIs to update scrapers.',
