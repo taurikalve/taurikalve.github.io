@@ -14,7 +14,7 @@ const experiences: {
     company: 'Jutt.ai',
     startDate: 'September 2025',
     endDate: 'now',
-    tasks: ['UI/UX development', 'Full-stack engineering', 'LLM management'],
+    tasks: ['Full-stack engineering', 'UI/UX development', 'LLM engineering'],
   },
   {
     role: 'Full-Stack Engineer / CTO',

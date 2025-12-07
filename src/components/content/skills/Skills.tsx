@@ -16,7 +16,7 @@ const primarySkills: {
   // { label: 'Linux', level: 90 },
   // { label: 'Shell / Bash', level: 90 },
   { label: 'PostgreSQL', level: 90 },
-  { label: 'MariaDB / MySQL', level: 90 },
+  { label: 'MariaDB / MySQL', level: 85 },
   { label: 'REST', level: 100 },
   { label: 'GraphQL', level: 85 },
   { label: 'Sass / SCSS', level: 100 },
