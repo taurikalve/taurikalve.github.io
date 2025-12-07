@@ -45,13 +45,13 @@ const additionalSkills: string[] = [
   // 'MariaDB / MySQL',
   // 'Windows',
   // 'jQuery',
-  'Google Analytics',
   'WordPress',
   'Nginx',
   'Webpack',
   'Git',
   'GitHub Actions',
   'Amazon Web Services',
+  'Google Cloud Platform',
   'Linux',
 ];
 

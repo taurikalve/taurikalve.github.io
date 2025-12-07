@@ -22,7 +22,7 @@ const experiences: {
     startDate: 'October 2013',
     endDate: 'September 2025',
     tasks: [
-      'Creation and management of JS/TS-based microservices architecture applications',
+      'Full-stack engineering',
       // 'Creation and management of dozens of WordPress sites',
       'Web design',
       'DevOps',
