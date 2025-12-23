@@ -12,8 +12,8 @@ export default function Intro({ className, mode, ...rest }: Props) {
     <div className={buildClasses(style.container, className)} {...rest}>
       <p>
         Senior Full-Stack Engineer with <b>12 years of experience</b> building
-        dynamic, scalable web applications using <b>TypeScript</b>, <b>React</b>
-        , and <b>Node.js</b>. I specialize in evolving traditional web
+        dynamic, scalable web applications using <b>TypeScript</b>, <b>React</b>{' '}
+        and <b>Node.js</b>. I specialize in evolving traditional web
         architectures into intelligent ecosystems.
       </p>
       <p>
