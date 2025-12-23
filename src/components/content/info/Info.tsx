@@ -55,7 +55,7 @@ export default function Info({ mode, className, ...rest }: Props) {
         </div>
         <div>
           <AddressIcon className={buildClasses(style.icon, style.stroke)} />
-          <span>Keila, Harju county, Estonia</span>
+          <span>Harju County, Estonia</span>
         </div>
       </div>
     </div>
