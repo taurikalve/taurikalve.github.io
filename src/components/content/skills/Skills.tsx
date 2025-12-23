@@ -15,44 +15,53 @@ const primarySkills: {
   { label: 'Docker', level: 95 },
   // { label: 'Linux', level: 90 },
   // { label: 'Shell / Bash', level: 90 },
-  { label: 'PostgreSQL', level: 90 },
-  { label: 'MariaDB / MySQL', level: 85 },
+  { label: 'SQL', level: 95 },
+  // { label: 'MariaDB / MySQL', level: 85 },
   { label: 'REST', level: 100 },
-  { label: 'GraphQL', level: 85 },
+  { label: 'GraphQL', level: 90 },
   { label: 'Sass / SCSS', level: 100 },
 ].sort((a, b) => b.level - a.level);
-const additionalSkills: string[] = [
+
+const aiSkills: (React.ReactNode | string)[] = [
+  <>Hugging Face</>,
+  'Edge AI & Local Inference',
+  'Model Fine-tuning & Adaptation',
+  'Quantization & Distillation',
+  'Python',
+];
+
+const additionalSkills: (React.ReactNode | string)[] = [
+  'Linux',
+  'Amazon Web Services',
+  'Google Cloud Platform',
   'PHP',
   'Go',
-  'Python',
   'Shell / Bash',
-  'Web scraping',
+  'Web crawling',
   'UI/UX design',
   'Next.js',
+  'Svelte',
+  // 'Angular',
+  // 'Vue.js',
   'Fastify',
   'Express',
-  'NestJS',
-  'Svelte',
-  'Angular',
-  'Vue.js',
-  'React Native',
+  // 'NestJS',
+  // 'React Native',
   'WebSockets',
   'Puppeteer',
-  'Playwright',
   'DevOps',
   'Testing',
   // 'Jest',
-  // 'MariaDB / MySQL',
+  'PostgreSQL',
+  'MariaDB / MySQL',
   // 'Windows',
   // 'jQuery',
-  'WordPress',
-  'Nginx',
+  // 'WordPress',
+  'Search engine optimization',
+  // 'Nginx',
   'Webpack',
   'Git',
   'GitHub Actions',
-  'Amazon Web Services',
-  'Google Cloud Platform',
-  'Linux',
 ];
 
 export default function Skills(props: React.HTMLAttributes<HTMLDivElement>) {
@@ -70,10 +79,18 @@ export default function Skills(props: React.HTMLAttributes<HTMLDivElement>) {
           </ul>
         </div>
         <div className={buildClasses(style.block, style.additional)}>
+          <h3>AI & Machine Learning</h3>
+          <ul>
+            {aiSkills.map((skill, i) => (
+              <li key={i}>{skill}</li>
+            ))}
+          </ul>
+        </div>
+        <div className={buildClasses(style.block, style.additional)}>
           <h3>Additional</h3>
           <ul>
-            {additionalSkills.map((skill) => (
-              <li key={skill}>{skill}</li>
+            {additionalSkills.map((skill, i) => (
+              <li key={i}>{skill}</li>
             ))}
           </ul>
         </div>

@@ -22,16 +22,16 @@ const education: {
   // },
   {
     school: 'Tallinn University of Technology',
-    level: 'IT - telecom, Bachelors',
+    level: 'CS - telecom, Bachelors',
     startDate: '2012',
     endDate: '...',
   },
-  {
-    school: 'Tallinn University of Technology',
-    level: 'Business, Bachelors',
-    startDate: '2013',
-    endDate: '...',
-  },
+  // {
+  //   school: 'Tallinn University of Technology',
+  //   level: 'Business, Bachelors',
+  //   startDate: '2013',
+  //   endDate: '...',
+  // },
 ];
 
 export default function Education(props: React.HTMLAttributes<HTMLDivElement>) {

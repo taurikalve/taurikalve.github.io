@@ -6,7 +6,7 @@ const projects: {
   name: string;
   url: string;
   goal: string;
-  points: string[];
+  points: React.ReactNode[];
 }[] = [
   {
     name: 'KVotsing',

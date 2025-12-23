@@ -11,7 +11,7 @@ interface Props extends React.HTMLAttributes<HTMLDivElement> {
       postList?: React.ReactNode;
       headPostName?: React.ReactNode;
     };
-    list: string[];
+    list: React.ReactNode[];
   }[];
 }
 

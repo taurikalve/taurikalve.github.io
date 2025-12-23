@@ -7,14 +7,24 @@ const experiences: {
   company: string;
   startDate: string;
   endDate?: string;
-  tasks: string[];
+  tasks: React.ReactNode[];
 }[] = [
   {
     role: 'Software Engineer',
     company: 'Jutt.ai',
     startDate: 'September 2025',
     endDate: 'now',
-    tasks: ['Full-stack engineering', 'UI/UX development', 'LLM engineering'],
+    tasks: [
+      <>
+        <b>Architecting Edge AI Solutions:</b> Designing local-first inference
+        pipelines using containerized Hugging Face models hosted on cloud
+        services.
+      </>,
+      <>
+        <b>Model Optimization:</b> Implementing quantization and distillation to
+        deploy efficient LLMs
+      </>,
+    ],
   },
   {
     role: 'Full-Stack Engineer / CTO',
@@ -22,11 +32,18 @@ const experiences: {
     startDate: 'October 2013',
     endDate: 'September 2025',
     tasks: [
-      'Full-stack engineering',
       // 'Creation and management of dozens of WordPress sites',
-      'Web design',
-      'DevOps',
-      'Search engine optimization',
+      <>
+        <b>End-to-End Development:</b> Led the lifecycle of multiple web
+        applications from concept to deployment, managing both front-end
+        interfaces and back-end architectures.
+      </>,
+      <>
+        <b>Infrastructure & DevOps:</b> Managed Linux-based cloud
+        infrastructure, ensuring high availability and automating deployment
+        workflows.
+      </>,
+      // 'Search engine optimization',
       // 'Product ownership',
       // 'IT consultancy',
       // 'FinOps',

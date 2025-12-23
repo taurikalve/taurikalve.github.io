@@ -40,7 +40,8 @@ header {
     width: 100%;
     gap: 1rem 1rem;
     display: grid;
-    grid-template-columns: 73% 27%;
+    $mainCol: 73%;
+    grid-template-columns: $mainCol 100% - $mainCol;
     grid-template-rows: auto;
     @media print {
       max-width: 700px;
