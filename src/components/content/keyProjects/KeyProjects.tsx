@@ -13,7 +13,7 @@ const projects: {
     url: 'kvotsing.ee',
     goal: "Project's goal was to aggregate Estonian property listings into a single place.",
     points: [
-      'Tech: Node.js, React, Next.js, Fastify, MongoDB, Docker, Traefik.',
+      'Node.js, React, Next.js, Fastify, MongoDB, Docker, Puppeteer',
       'Utilizes a crawler app orchestrated Docker browser swarm.',
       'Crawling and web apps are designed to run on separate hosts.',
       // 'Monorepo that utilizes npm workspaces to minimize code duplication.',
