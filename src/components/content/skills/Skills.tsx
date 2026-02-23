@@ -32,8 +32,8 @@ const aiSkills: (React.ReactNode | string)[] = [
 
 const additionalSkills: (React.ReactNode | string)[] = [
   'Linux',
-  'Amazon Web Services',
   'Google Cloud Platform',
+  'Amazon Web Services',
   'PHP',
   'Go',
   'Shell / Bash',
@@ -57,7 +57,7 @@ const additionalSkills: (React.ReactNode | string)[] = [
   // 'Windows',
   // 'jQuery',
   // 'WordPress',
-  'Search engine optimization',
+  'SEO',
   // 'Nginx',
   'Webpack',
   'Git',
